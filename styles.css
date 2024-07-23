@@ -81,7 +81,9 @@ a {
   background-color: #3882f6;
   border: none;
   color: white;
-  padding: 10px 40px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
   border-radius: 5px;
 }
 
@@ -200,7 +202,7 @@ a {
   font-weight: 400;
 }
 
-.outline {
+.sign-up.outline {
   outline: 2px solid white;
 }
 
