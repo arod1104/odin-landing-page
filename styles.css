@@ -5,6 +5,13 @@
   /* outline: 2px solid red; */
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
 .header,
 .section-one,
 .footer {
@@ -43,11 +50,8 @@ a {
   color: white;
 }
 
-.section-one,
-.section-two,
-.section-three,
-.section-four {
-  height: 500px;
+.section {
+  min-height: 540px;
   flex: 1;
 }
 
@@ -62,6 +66,7 @@ a {
 
 .text-container {
   width: 50vh;
+  min-width: 30vh;
 }
 
 .hero-main-text {
@@ -81,7 +86,7 @@ a {
   background-color: #3882f6;
   border: none;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 36px;
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
@@ -93,10 +98,12 @@ a {
   background-color: rgb(145, 146, 150);
   height: 300px;
   width: 600px;
+  /* min-width: 300px; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  flex-shrink: 1;
 }
 
 .section-two {
@@ -107,6 +114,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
+  flex-grow: 1;
 }
 
 .gallery {
@@ -117,6 +125,7 @@ a {
   justify-content: center;
   gap: 100px;
   margin-top: 60px;
+  flex-shrink: 0;
 }
 
 .image-container {
@@ -126,7 +135,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   gap: 20px;
   max-width: 200px;
   text-align: center;
@@ -151,6 +159,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
+  flex-wrap: wrap;
 }
 
 .quote,
@@ -164,6 +173,8 @@ a {
   font-weight: lighter;
   max-width: 90vh;
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .quote-origin {
