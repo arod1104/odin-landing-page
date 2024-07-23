@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header,
+.section-one {
+  background-color: #1f2937;
+  color: #f9f1f8;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  gap: 200px;
+}
+
+.right-links {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  height: 500px;
+}
+
+.section-one {
+  /* for debugging */
+  /* outline: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.text-container {
+  width: 50vh;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.placeholder-image {
+  /* for debugging */
+  /* outline: 2px solid blue; */
+  background-color: rgb(145, 146, 150);
+  height: 300px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.section-two {
+  font-size: 36px;
+  font-weight: 900;
+  font-weight: extra-bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.gallery {
+  /* for debugging */
+  /* outline: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 60px;
+}
+
+.image-container {
+  /* outline: 2px solid rgb(0, 255, 0); */
+  /* width: 100px; */
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.image-box {
+  outline: 4px solid #3882f6;
+  height: 200px;
+  width: 200px;
+  border-radius: 16px;
+}
+
+.image-caption {
+  font-size: 18px;
+}
+
+.section-three {
+  outline: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  max-width: 90vh;
+  margin-bottom: 10px;
+}
+
+.quote-origin {
+  outline: 2px solid blue;
+  display: flex;
+  justify-self: flex-end;
+}
