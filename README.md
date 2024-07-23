@@ -1,6 +1,8 @@
 # odin-landing-page
 
-This repository contains source material for the landing page project for The Odin Project.
+This repository contains source material for the landing page project for The Odin Project. The project is a simple landing page that uses HTML and CSS to create a responsive design.
+
+All code was written by me based off reference images provided by The Odin Project as well as reference material.
 
 ## Assignment (taken from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page))
 
